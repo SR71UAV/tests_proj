@@ -29,4 +29,11 @@ public class FirstTest {
         Assert.assertTrue(title.equals("MALADEC IGORYAN"));
     }
 
+    @Test
+    public void test_number_2() {
+        driver.get("https://danieldefo.ru");
+        String title = driver.getTitle();
+        Assert.assertTrue(title.equals("MALADEC IGORYAN"));
+    }
+
 }
